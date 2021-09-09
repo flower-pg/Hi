@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+<h2>가입에 실패하였습니다.</h2>
 </body>
 </html>
