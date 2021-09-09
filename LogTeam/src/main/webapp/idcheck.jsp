@@ -7,6 +7,9 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<h1>아이디 체크</h1>
+	
+	<input type="text" name = "id" autofocus="autofocus">
+	<input type="submit" value="중복확인">
 </body>
 </html>

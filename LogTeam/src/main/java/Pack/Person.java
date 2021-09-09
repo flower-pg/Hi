@@ -1,7 +1,5 @@
 package Pack;
 
-
-
 public class Person {
 	String id;
 	String pw;
@@ -10,7 +8,14 @@ public class Person {
 	String tel;
 	String email;
 	
-	
+	public String getNname() {
+		return nname;
+	}
+
+	public void setNname(String nname) {
+		this.nname = nname;
+	}
+
 	public Person() {
 		System.out.println("생성자 호출");
 	}
@@ -26,12 +31,6 @@ public class Person {
 	}
 	public void setPw(String pw) {
 		this.pw = pw;
-	}
-	public String getNname() {
-		return nname;
-	}
-	public void setNname(String nname) {
-		this.nname = nname;
 	}
 	public String getAddr() {
 		return addr;
@@ -51,9 +50,6 @@ public class Person {
 	public void setEmail(String email) {
 		this.email = email;
 	}
-	
-	
-	
 	
 	
 	
