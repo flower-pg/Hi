@@ -22,7 +22,7 @@
 		Class.forName("com.mysql.jdbc.Driver");
 
 		String url = "jdbc:mysql://localhost/db01";
-		conn = DriverManager.getConnection(url, "root", "rootroot");
+		conn = DriverManager.getConnection(url, "root", "64126346");
 		// 연결 끝
 
 		String logId = per.getId();

@@ -25,7 +25,7 @@
 	try{
 		Class.forName("com.mysql.cj.jdbc.Driver");
 		String url="jdbc:mysql://localhost:3306/db01";
-		connection=DriverManager.getConnection(url,"root","db1234");
+		connection=DriverManager.getConnection(url,"root","64126346");
 		
 		String sql="insert into log(id,pw,nname,addr,tel,email) values(?,?,?,?,?,?);";
 		pstmt=connection.prepareStatement(sql);
